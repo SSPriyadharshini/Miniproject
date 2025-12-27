@@ -1,59 +1,100 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Fake News Detection Using Hybrid Deep Learning Model
 
+Small Description
+
+The Fake News Detection system aims to automatically identify whether a news article is real or fake by using a hybrid deep learning approach. The system analyzes textual content and classifies news based on learned linguistic patterns, helping reduce the spread of misinformation on digital platforms.
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Fake News Detection Using Hybrid Deep Learning Model is a project designed to identify and classify news articles as real or fake using advanced machine learning and deep learning techniques. With the rapid growth of social media and online news platforms, misinformation spreads quickly and can mislead users.
+
+Traditional methods of manual verification are time-consuming and inefficient. This project addresses the problem by combining multiple deep learning models (such as CNN, LSTM, or BERT) to extract both semantic and contextual features from news text. The hybrid approach improves accuracy and robustness compared to single-model systems.
+
+The system accepts news content as input, preprocesses the text, extracts features, and predicts the authenticity of the news in real time.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Uses a hybrid deep learning model for higher accuracy
+
+Combines textual and contextual feature extraction
+
+Efficient preprocessing using NLP techniques
+
+High scalability for large datasets
+
+Reduced time complexity during prediction
+
+Supports JSON-based dataset format
+
+User-friendly and easy-to-deploy framework
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Operating System: 64-bit Windows 10 / Ubuntu
+
+Programming Language: Python 3.7 or later
+
+Deep Learning Frameworks: TensorFlow / Keras
+
+Machine Learning Libraries: scikit-learn
+
+Natural Language Processing: NLTK, spaCy
+
+Text Vectorization: TF-IDF, Word Embeddings
+
+IDE: VS Code / Jupyter Notebook
+
+Version Control: Git
+
+Additional Dependencies: NumPy, Pandas, Matplotlib
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+<img width="738" height="393" alt="image" src="https://github.com/user-attachments/assets/c2528e4c-d7cb-4c74-ab3c-ba42b3bd1be6" />
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
-
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output1 
+<img width="674" height="369" alt="image" src="https://github.com/user-attachments/assets/ad79a185-42f2-4019-b171-4d8dba940f28" />
 
 #### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<img width="579" height="354" alt="image" src="https://github.com/user-attachments/assets/4418ebd3-a8ad-4c3c-bbc0-587ab00c3d86" />
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The Fake News Detection system successfully identifies and classifies news articles as real or fake using a hybrid deep learning approach. By combining multiple models such as CNN, LSTM, and BERT, the system effectively captures both local textual patterns and long-term contextual information from news content.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The experimental results show that the proposed model achieves high accuracy (up to 95.8%), demonstrating better performance compared to traditional machine learning methods. The preprocessing and feature extraction stages significantly reduce noise in the data, improving prediction reliability.
+
+Impact of the Project
+
+Helps in reducing the spread of misinformation on digital platforms
+
+Assists users in verifying news authenticity quickly
+
+Supports media organizations and fact-checking agencies
+
+Improves public awareness and trust in online information
+
+Can be extended for real-time social media monitoring
+
+This project provides a strong foundation for future research in misinformation detection and can be enhanced further by integrating multilingual support, real-time data streaming, and sentiment analysis to build a more robust fake news detection system.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H.,
+“Fake News Detection on Social Media: A Data Mining Perspective,”
+ACM SIGKDD Explorations Newsletter, Vol. 19, No. 1, pp. 22–36, 2017.
 
+Zhou, X., & Zafarani, R.,
+“A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities,”
+ACM Computing Surveys (CSUR), Vol. 53, No. 5, 2020.
 
+Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K.,
+“BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,”
+Proceedings of NAACL-HLT, 2019.
 
+Ruchansky, N., Seo, S., & Liu, Y.,
+“CSI: A Hybrid Deep Model for Fake News Detection,”
+Proceedings of the 2017 ACM Conference on Information and Knowledge Management (CIKM).
 
